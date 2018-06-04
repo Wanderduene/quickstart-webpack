@@ -38,4 +38,38 @@ Then just add to the presets in your `.babelrc` file the value '`react`':
 }
 ```
 
-Your now ready to use React and JSX!
+Your now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
+
+## Something else?
+
+If you publish a project, based on this scaffold, don't forget to:
+
+- rename the project in the `package.json`
+- change the description in the `package.json`
+- change the author in the `package.json`
+- adapt the license in the `package.json` if you need
+- rewrite this `README.md` file
+- maybe use `git rebase` to squash to history of this project into one commit, so your project's history isn't bloated with stuff related to this scaffold :)
+
+# Reference
+
+```bash
+npm run start
+```
+
+- starts the application in a development server
+- URL is shown on console
+- refresh on every code change
+
+```bash
+npm run build
+```
+
+- creates the source bundle in the `dist` folder
+- content in `dist` folder is production ready
+
+```bash
+npm run clean
+```
+
+- cleans up the workspace by deleting generated sources
