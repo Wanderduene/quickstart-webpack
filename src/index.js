@@ -1,1 +1,1 @@
-document.getElementById('app-root').textContent = 'It work\'s!';
+document.getElementById('root').textContent = 'It work\'s!';
