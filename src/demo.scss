@@ -4,4 +4,12 @@
     text-align: center;
     padding:100px;
     background-color: lightgray;
+
+    &::after{
+        background: url('./demo.png');
+        width:100px;
+        height:100px;
+        content:'';
+        display:inline-block;
+    }
 }
