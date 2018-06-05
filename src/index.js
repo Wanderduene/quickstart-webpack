@@ -1,1 +1,3 @@
-document.getElementById('root').textContent = 'It work\'s!';
+import itWorks from './demo';
+
+document.getElementById('root').textContent = itWorks();
