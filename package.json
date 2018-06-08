@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "clean": "del-cli dist/*.js dist/*.map"
+    "clean": "del-cli dist/bundle.js dist/bundle.js.map"
   },
   "author": "Ronny Wichards",
   "license": "MIT",
