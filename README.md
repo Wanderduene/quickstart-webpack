@@ -2,6 +2,12 @@
 
 A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production. The only predefined technology in the stack is a [SASS](https://sass-lang.com/) preprocessor, for importing `.scss` stylesheets.
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) (included in Node.js)
+- [git](https://git-scm.com/)
+
 ## Installation
 
 First ```git clone``` this project.
