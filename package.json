@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "clean": "del-cli dist/bundle.js dist/bundle.js.map"
   },
-  "author": "Ronny Wichards",
+  "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
