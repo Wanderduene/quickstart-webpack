@@ -63,7 +63,7 @@ If you publish a project, based on this scaffold, don't forget to:
 - change the author in the `package.json`
 - adapt the license in the `package.json` if you need
 - rewrite this `README.md` file
-- maybe use `git rebase` to [squash the history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) of this project into one commit, so your project's history isn't bloated with stuff related to this scaffold :)
+- maybe use `git rebase --interactive --root` to [squash the history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) of this project into one commit, so your project's history isn't bloated with stuff related to this scaffold :)
 
 # Reference
 
