@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "clean": "del-cli dist/bundle.js dist/bundle.js.map"
+    "clean": "del-cli dist/bundle.js dist/bundle.js.map",
+    "lint": "eslint ./src --ext .js,.jsx"
   },
   "author": "",
   "license": "MIT",
@@ -17,6 +18,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.11",
     "del-cli": "^1.1.0",
+    "eslint": "^5.1.0",
     "file-loader": "^1.1.11",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",

@@ -87,3 +87,10 @@ npm run clean
 ```
 
 - cleans up the workspace by deleting generated sources
+
+```
+npm run lint
+```
+
+- executes a static code analysis in `src`
+- show's JavaScript problems and dirty code
