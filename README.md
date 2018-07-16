@@ -1,12 +1,33 @@
 # Quickstart Webpack
 
-A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production. The only predefined technology in the stack is a [SASS](https://sass-lang.com/) preprocessor, for importing `.scss` stylesheets.
+A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production. 
+
+## Technology Stack
+
+The only predefined technology in the stack, that has a direct impact to the coding, is a [SASS](https://sass-lang.com/) preprocessor, for translating `.scss` stylesheets. It's already added because there is no good reason for not using it. Apart from that there are no preset frontend libraries in this project.
+
+### Runtime dependencies
+
+- no predefined runtime dependecies
+
+### Buildtime dependencies
+
+- Webpack + plugins
+- Babel + presets
+- SASS
+- ESLint
 
 ## Requirements
 
+### For development
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/) (included in Node.js)
 - [git](https://git-scm.com/)
+- browser
+
+### For production
+- webserver for static content (i.e. [Apache](https://httpd.apache.org/))
+- browser
 
 ## Installation
 
