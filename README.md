@@ -8,7 +8,7 @@ The only predefined technology in the stack, that has a direct impact to the cod
 
 ### Runtime dependencies
 
-- no predefined runtime dependecies
+- no predefined runtime dependencies
 
 ### Buildtime dependencies
 
