@@ -59,13 +59,13 @@ All scripts and resources, that should be handled by Webpack, should be placed i
 
 ## How to add React?
 
-If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm install react react-dom``` to add the frontend libraries. Then run ```npm install --save-dev babel-preset-react``` to add the backend library for parsing JSX files.
+If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm install react react-dom``` to add the frontend libraries. Then run ```npm install --save-dev @babel/react``` to add the backend library for parsing JSX files.
 
 Then just add the value `react` to the presets in your `.babelrc` file :
 
 ```javascript
 {
-    "presets": ["env", "react"]
+    "presets": ["@babel/env", "@babel/react"]
 }
 ```
 
