@@ -1,6 +1,6 @@
 /.idea
 /.vscode
 /node_modules
+/*.tgz
 /dist/*.js
-/dist/*.svg
 /dist/*.map
