@@ -46,7 +46,7 @@ After that install all the default dependecies:
 npm install
 ```
 
-Now the project is ready to use. You can start the dev server with ```npm run start``` or create a deployable release version of it with ```npm run build```.
+Now the project is ready to use. You can start the dev server with ```npm run start``` or create a deployable release version of it with ```npm run dist```.
 
 ## Where to start?
 
@@ -98,7 +98,7 @@ npm run start
 - refresh on every code change
 
 ```bash
-npm run build
+npm run dist
 ```
 
 - creates the source bundle in the `dist` folder

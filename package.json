@@ -4,7 +4,7 @@
   "description": "A scaffold project for a Webpack based webapplication, without the overhead of specific libraries.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "dist": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
     "clean": "del-cli dist/bundle.js dist/bundle.js.map",
     "lint": "eslint ./src --ext .js,.jsx"
