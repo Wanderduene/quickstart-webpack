@@ -12,8 +12,8 @@ The only predefined technology in the stack, that has a direct impact to the cod
 
 ### Buildtime dependencies
 
-- Webpack + plugins
-- Babel + presets
+- Webpack 4 + plugins
+- Babel 7 + presets
 - SASS
 - ESLint
 
