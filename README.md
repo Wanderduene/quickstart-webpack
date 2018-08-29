@@ -50,11 +50,11 @@ Now the project is ready to use. You can start the dev server with ```npm run st
 
 ## Where to start?
 
-The `index.html` can be found in the `dist` folder. It's preconfigured to load the via Webpack generated module bundle.
-If you have static resources, wich shouldn't be loaded by Webpack, put it in here. When running a build, Webpack generates the resource bundle into this folder. The content of this folder is production ready and can deployed / copied to any kind of webserver (i.e. [Apache](https://httpd.apache.org/)). It will be a standard ECMAScript 5 webapplication. Node.js and npm are not needed in production.
-
 The main entry point of your web application is the `index.js`, you can find in the `src` folder. Start your implementation here. Use the ECMAScript 6 module-system, by using [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
 The `src` folder contains a little demo, to demonstrate how to handle modules and resoures with import / export. Just delete all `demo.*` files and empty the `index.js` to get rid of it.
+
+The `index.html` can be found in the `dist` folder. It's preconfigured to load the via Webpack generated module bundle.
+If you have static resources, wich shouldn't be loaded by Webpack, put it in here. When running a build, Webpack generates the resource bundle into this folder. The content of this folder is production ready and can deployed / copied to any kind of webserver (i.e. [Apache](https://httpd.apache.org/)). It will be a standard ECMAScript 5 webapplication. Node.js and npm are not needed in production.
 
 All scripts and resources, that should be handled by Webpack, should be placed in the `src` folder (except for the libraries you installed via npm). In the default configuration of this project Webpack can import .js and .jsx files (add React), .css and .scss files, JPG's, PNG's, SVG's and various Webfont files.
 
