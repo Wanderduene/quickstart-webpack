@@ -76,6 +76,14 @@ You're now ready to use [React and JSX](https://reactjs.org/docs/hello-world.htm
 
 To add [Angular](https://angular.io/) there is a littlebit more to do. You need the Angular libraries, of course, a Typescript-Loader, a little more configuration and some Plugins and Polyfills. The Angular documentation describes how to add Angular to a Webpack project: [Angular with Webpack](https://v5.angular.io/guide/webpack)
 
+## How to add Bootstrap styles?
+
+You can use the [Bootstrap](http://getbootstrap.com) styles and grid system by installing it with ```npm install bootstrap```. Then just import it in the main entry point (index.js) of your webapplication, by adding the import: 
+
+```javascript
+import 'bootstrap/dist/css/bootstrap.css';
+``` 
+
 ## Something else?
 
 If you publish a project, based on this scaffold, don't forget to:
