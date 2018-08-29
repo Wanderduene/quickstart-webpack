@@ -1,6 +1,6 @@
 # Quickstart Webpack
 
-A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production. 
+A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production and to make it instant to use for many default use cases (i.e. loading of images). 
 
 ## Technology Stack
 
