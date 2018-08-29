@@ -6,8 +6,9 @@
   "scripts": {
     "dist": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "clean": "del-cli dist/bundle.js dist/bundle.js.map",
-    "lint": "eslint ./src --ext .js,.jsx"
+    "clean": "del-cli dist/bundle.js dist/bundle.js.map *.tgz",
+    "lint": "eslint ./src --ext .js,.jsx",
+    "prepack": "npm run clean && npm run dist"
   },
   "author": "",
   "license": "MIT",
