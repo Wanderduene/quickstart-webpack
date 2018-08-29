@@ -62,7 +62,7 @@ All scripts and resources, that should be handled by Webpack, should be placed i
 
 If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm install react react-dom``` to add the frontend libraries. Then run ```npm install --save-dev @babel/react``` to add the backend library for parsing JSX files.
 
-Then just add the value `react` to the presets in your `.babelrc` file :
+Then just add the value `@babel/react` to the presets in your `.babelrc` file :
 
 ```javascript
 {
@@ -70,7 +70,7 @@ Then just add the value `react` to the presets in your `.babelrc` file :
 }
 ```
 
-Your now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
+You're now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
 
 ## How to add Angular?
 
