@@ -12,10 +12,10 @@ The only predefined technology in the stack, that has a direct impact to the cod
 
 ### Buildtime dependencies
 
-- Webpack 4 + plugins
-- Babel 7 + presets
-- SASS
-- ESLint
+- [Webpack 4](https://webpack.js.org/) + plugins
+- [Babel 7](http://babeljs.io/) + presets
+- [SASS](https://sass-lang.com/)
+- [ESLint](https://eslint.org/)
 
 ## Requirements
 
@@ -23,7 +23,8 @@ The only predefined technology in the stack, that has a direct impact to the cod
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/) (included in Node.js)
 - [git](https://git-scm.com/)
-- browser
+- browser (i.e. [Firefox](https://www.mozilla.org/de/firefox/) or [Chrome](https://www.google.com/intl/de_ALL/chrome/))
+- editor (i.e. [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) or [Notepad++](https://notepad-plus-plus.org/))
 
 ### For production
 - webserver for static content (i.e. [Apache](https://httpd.apache.org/))
