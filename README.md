@@ -60,17 +60,24 @@ All scripts and resources, that should be handled by Webpack, should be placed i
 
 ## How to add React?
 
-If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm install react react-dom``` to add the frontend libraries. Then run ```npm install --save-dev @babel/react``` to add the backend library for parsing JSX files.
+If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm install react react-dom``` to add the frontend libraries. Then run ```npm install --save-dev @babel/preset-react eslint-plugin-react``` to add the backend library for transpiling and linting JSX files.
 
-Then just add the value `@babel/react` to the presets in your `.babelrc` file :
+Then just add the value `@babel/preset-react` to the presets in your `.babelrc` file
 
 ```javascript
 {
-    "presets": ["@babel/env", "@babel/react"]
+    "presets": ["@babel/env", "@babel/preset-react"]
 }
 ```
 
+and add the value `plugin:react/recommended` to the extends section of your `.eslintrc.js` file
+
+```javascript
+    "extends": ["eslint:recommended", "plugin:react/recommended"]
+```
+
 You're now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
+Remember to use the file extension .jsx for your JSX files :)
 
 ## How to add Angular?
 
