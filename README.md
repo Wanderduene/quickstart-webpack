@@ -4,7 +4,9 @@ A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, with
 
 ## Technology Stack
 
-The only predefined technology in the stack, that has a direct impact to the coding, is a [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. It's already added because there is no good reason for not using it (and usage of SCSS is optional). Apart from that there are no preset frontend libraries in this project.
+The only predefined technology in the stack, that has a direct impact to the coding, is a [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. It's already added because there is no good reason for not using it (and the usage of it is completly optional). 
+
+Apart from that there are no preset frontend libraries in this project.
 
 ### Runtime dependencies
 
