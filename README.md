@@ -45,7 +45,7 @@ git remote remove origin
 After that install all the default dependecies:
 
 ```bash
-npm install
+npm i
 ```
 
 Now the project is ready to use. You can start the dev server with ```npm run start``` or create a deployable release version of it with ```npm run dist```.
@@ -87,7 +87,7 @@ To add [Angular](https://angular.io/) there is a littlebit more to do. You need 
 
 ## How to add Bootstrap styles?
 
-You can use the [Bootstrap](http://getbootstrap.com) styles and grid system by installing it with ```npm install bootstrap```. Then just import it in the main entry point (index.js) of your webapplication, by adding the import: 
+You can use the [Bootstrap](http://getbootstrap.com) styles and grid system by installing it with ```npm i bootstrap```. Then just import it in the main entry point (index.js) of your webapplication, by adding the import: 
 
 ```javascript
 import 'bootstrap/dist/css/bootstrap.css';
@@ -102,7 +102,7 @@ If you publish a project, based on this scaffold, don't forget to:
 - change the author in the `package.json`
 - adapt the license in the `package.json` if you need
 - rewrite this `README.md` file
-- maybe use `git rebase --interactive --root` to [squash the history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) of this project into one commit, so your project's history isn't bloated with stuff related to this scaffold :)
+- maybe use `git rebase --interactive --root` to [squash the history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) of this project into one commit, so your project's history isn't bloated with stuff related to this scaffold 
 
 # Reference
 
