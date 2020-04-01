@@ -1,22 +1,19 @@
 # Quickstart Webpack
 
-A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production, to make it instant to use for many default use cases (i.e. loading of images). 
+A scaffold project for a [Webpack](https://webpack.js.org/) webapplication, without the overhead of specific libraries. It can be used to quickstart a prototype project for any kind of module-based webapplication. It has some preconfigured standards for development and production, to make it instant to use for many default use cases (i.e. loading of images, Webfonts, .sass files, .jsx files, etc...). 
 
 ## Technology Stack
 
-The only predefined technology in the stack, that has a direct impact to the coding, is a [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. It's already added because there is no good reason for not using it (and the usage of it is completly optional). 
-
-Apart from that there are no preset frontend libraries in this project.
+There are no preset frontend libraries in this project.
 
 ### Runtime dependencies
 
 - no predefined runtime dependencies
 
-### Buildtime dependencies
+### Buildtime / Development dependencies
 
 - [Webpack 4](https://webpack.js.org/) + plugins
 - [Babel 7](http://babeljs.io/) + presets
-- [SASS](https://sass-lang.com/)
 - [ESLint](https://eslint.org/)
 
 ## Requirements
@@ -80,6 +77,16 @@ and add the value `plugin:react/recommended` to the extends section of your `.es
 
 You're now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
 Remember to use the file extension .jsx for your JSX files :)
+
+## How to add SASS
+
+The project is preconfigured to be able to import `.scss` files, but if you want to use it, you first have to add the [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. Simply execute:
+
+```javascript
+npm i -D node-sass
+```
+
+Then it should work. Be aware of the fact that the SASS compiler maybe have further dependencies to a C++ compiler and python.
 
 ## How to add Angular?
 
