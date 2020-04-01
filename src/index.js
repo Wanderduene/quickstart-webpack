@@ -1,4 +1,4 @@
 import itWorks from './demo';
-import './demo.scss';
+import './demo.css';
 
 document.getElementById('root').textContent = itWorks();
