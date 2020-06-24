@@ -8,6 +8,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
         "clean": "del-cli dist/bundle.js dist/bundle.js.map dist/*.bmp dist/*.png dist/*.svg dist/*.eot dist/*.ttf dist/*.woff dist/*.woff2 *.tgz",
     "lint": "eslint ./src --ext .js,.jsx",
+        "lint:fix": "eslint ./src --ext .js,.jsx --fix",
     "prepack": "npm run clean && npm run dist"
   },
   "author": "",
