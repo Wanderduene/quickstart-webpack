@@ -4,6 +4,7 @@
   "description": "A scaffold project for a Webpack based webapplication, without the overhead of specific libraries.",
   "main": "index.js",
   "scripts": {
+        "build": "npm run clean && npm run lint && npm run dist",
     "dist": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
         "clean": "del-cli dist/bundle.js dist/bundle.js.map dist/*.bmp dist/*.png dist/*.svg dist/*.eot dist/*.ttf dist/*.woff dist/*.woff2 *.tgz",
