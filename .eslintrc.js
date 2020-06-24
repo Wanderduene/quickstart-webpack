@@ -29,12 +29,17 @@ module.exports = {
             "always"
         ],
         "no-console": [
-            "error", 
-            { 
+            "error",
+            {
                 "allow": [
                     "log", "warn", "error"
-                ] 
+                ]
             }
         ]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     }
 };
