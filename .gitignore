@@ -4,3 +4,10 @@
 /*.tgz
 /dist/*.js
 /dist/*.map
+/dist/*.svg
+/dist/*.ttf
+/dist/*.woff
+/dist/*.woff2
+/dist/*.eot
+/dist/*.png
+/dist/*.bmp
