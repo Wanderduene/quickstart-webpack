@@ -74,18 +74,16 @@ npm i -D @babel/preset-react eslint-plugin-react
 ``` 
 to add the backend library for transpiling and linting JSX files.
 
-Then add the value `@babel/preset-react` to the presets in your `.babelrc` file
+Then add the value `@babel/preset-react` to the presets in your `.babelrc` file. It should look like this:
 
 ```javascript
-{
-    "presets": ["@babel/env", "@babel/preset-react"]
-}
+"presets": ["@babel/env", "@babel/preset-react"]
 ```
 
-and add the value `plugin:react/recommended` to the extends section of your `.eslintrc.js` file
+and add the value `plugin:react/recommended` to the extends section of your `.eslintrc.js` file. It should look like this:
 
 ```javascript
-    "extends": ["eslint:recommended", "plugin:react/recommended"]
+"extends": ["eslint:recommended", "plugin:react/recommended"]
 ```
 
 You're now ready to use [React and JSX](https://reactjs.org/docs/hello-world.html)!
