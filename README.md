@@ -31,11 +31,10 @@ There are no preset frontend libraries in this project.
 
 ## Installation
 
-First 
+First clone this project with
 ```bash
-git clone
+git clone https://github.com/Wanderduene/quickstart-webpack.git
 ``` 
-this project.
 
 Second, step into the new folder and remove the git remote:
 
