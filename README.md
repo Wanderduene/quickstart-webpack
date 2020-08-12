@@ -31,7 +31,11 @@ There are no preset frontend libraries in this project.
 
 ## Installation
 
-First ```git clone``` this project.
+First 
+```bash
+git clone
+``` 
+this project.
 
 Second, step into the new folder and remove the git remote:
 
@@ -59,9 +63,19 @@ All scripts and resources, that should be handled by Webpack, should be placed i
 
 ## How to add React?
 
-If you want to have a [React](https://reactjs.org/) application you just have to excecute ```npm i react react-dom``` to add the frontend libraries. Then run ```npm i -D @babel/preset-react eslint-plugin-react``` to add the backend library for transpiling and linting JSX files.
+If you want to have a [React](https://reactjs.org/) application you just have to excecute 
+```bash
+npm i react react-dom
+``` 
+to add the frontend libraries. 
 
-Then just add the value `@babel/preset-react` to the presets in your `.babelrc` file
+Then run 
+```bash
+npm i -D @babel/preset-react eslint-plugin-react
+``` 
+to add the backend library for transpiling and linting JSX files.
+
+Then add the value `@babel/preset-react` to the presets in your `.babelrc` file
 
 ```javascript
 {
@@ -82,7 +96,7 @@ Remember to use the file extension .jsx for your JSX files :)
 
 The project is preconfigured to be able to import `.scss` files, but if you want to use it, you first have to add the [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. Simply execute:
 
-```javascript
+```bash
 npm i -D node-sass
 ```
 
