@@ -156,4 +156,4 @@ npm run lint
 npm run build
 ```
 
-- executes clean, lint and build in order
+- executes clean, lint and dist in order
