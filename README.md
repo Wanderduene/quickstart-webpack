@@ -151,3 +151,9 @@ npm run lint
 
 - executes a static code analysis in `src`
 - show's JavaScript problems and dirty code
+
+```
+npm run build
+```
+
+- executes clean, lint and build in order
