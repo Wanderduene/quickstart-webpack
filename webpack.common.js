@@ -12,24 +12,32 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.(jsx|js)$/,
-                exclude: /(node_modules)/,
-                use: {
-                    loader: 'babel-loader'
-                }
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
-            },
-            {
-                test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg|bmp)$/,
-                loader: 'url-loader?limit=1024'
-            },
-            {
-                test: /\.scss$/,
-                use: ['style-loader', 'css-loader', 'sass-loader']
+            test: /\.(jsx|js)$/,
+            exclude: /(node_modules)/,
+            use: {
+                loader: 'babel-loader'
             }
-        ]
+        },
+        {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
+        },
+        {
+            test: /\.(png|bmp|jpg|jpeg)$/,
+            include: /(images)/,
+            use: {
+                loader: 'file-loader'
+            }
+        },
+        {
+            test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg|bmp)$/,
+            exclude: /(images)/,
+            loader: 'url-loader?limit=1024'
+        },
+        {
+            test: /\.scss$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
+        }
+    ]
     }
 };
