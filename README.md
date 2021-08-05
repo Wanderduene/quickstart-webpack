@@ -12,7 +12,7 @@ There are no preset frontend libraries in this project.
 
 ### Buildtime / Development dependencies
 
-- [Webpack 4](https://webpack.js.org/) + plugins
+- [Webpack 5](https://webpack.js.org/) + plugins
 - [Babel 7](http://babeljs.io/) + presets
 - [ESLint](https://eslint.org/)
 
@@ -94,14 +94,10 @@ Remember to use the file extension .jsx for your JSX files :)
 The project is preconfigured to be able to import `.scss` files, but if you want to use it, you first have to add the [SASS](https://sass-lang.com/) preprocessor, for transpiling `.scss` stylesheets to CSS. Simply execute:
 
 ```bash
-npm i -D node-sass
+npm i -D sass
 ```
 
-Then it should work. Be aware of the fact that the SASS compiler maybe have further dependencies to a C++ compiler and python.
-
-## How to add Angular?
-
-To add [Angular](https://angular.io/) there is a littlebit more to do. You need the Angular libraries, of course, a Typescript-Loader, a little more configuration and some Plugins and Polyfills. The Angular documentation describes how to add Angular to a Webpack project: [Angular with Webpack](https://v5.angular.io/guide/webpack)
+Then it should work.
 
 ## How to add Bootstrap styles?
 
