@@ -12,27 +12,28 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.(jsx|js)$/,
+            test: /\.(jsx|js)$/i,
             exclude: /(node_modules)/,
             use: ['babel-loader']
         },
         {
-            test: /\.css$/,
+            test: /\.css$/i,
             use: ['style-loader', 'css-loader']
         },
         {
-            test: /\.(png|bmp|jpg|jpeg)$/,
-            include: /(images)/,
-            use: ['file-loader']
-        },
-        {
-            test: /\.(woff|woff2|eot|ttf|svg)$/,
-            exclude: /(images)/,
-            use: ['url-loader']
-        },
-        {
-            test: /\.scss$/,
+            test: /\.scss$/i,
             use: ['style-loader', 'css-loader', 'sass-loader']
+        },
+        {
+            test: /\.(jp(e*)g|png|woff|woff2|eot|ttf|svg|bmp)$/i,
+            use: [{
+                loader: 'url-loader',
+                options: {
+                    // limit: smaller files will be base46 encoded into the bundle.js / bigger files will be served via file-loader
+                    limit:1024 * 1, // 5kB
+                    name: '[name].[hash:7].[ext]'
+                },
+            }]
         }
     ]}
 };
