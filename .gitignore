@@ -2,6 +2,9 @@
 /.vscode
 /node_modules
 /*.tgz
+/dist/images
+/dist/static
+/dist/fonts
 /dist/*.js
 /dist/*.map
 /dist/*.svg
