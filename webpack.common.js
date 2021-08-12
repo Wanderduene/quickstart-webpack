@@ -25,15 +25,25 @@ module.exports = {
             use: ['style-loader', 'css-loader', 'sass-loader']
         },
         {
-            test: /\.(jp(e*)g|png|woff|woff2|eot|ttf|svg|bmp)$/i,
-            use: [{
-                loader: 'url-loader',
-                options: {
-                    // limit: smaller files will be base46 encoded into the bundle.js / bigger files will be served via file-loader
-                    limit:1024 * 1, // 5kB
-                    name: '[name].[hash:7].[ext]'
-                },
-            }]
+            test: /\.(jp(e*)g|png|svg|bmp)$/i,
+            type: 'asset',
+            generator: {
+                filename: 'images/[name].[hash][ext][query]'
+            }
+        },
+        {
+            test: /\.(woff|woff2|eot|ttf)$/i,
+            type: 'asset/resource',
+            generator: {
+                filename: 'fonts/[name].[hash][ext][query]'
+            }
+        },
+        {
+            test: /\.(html|json)$/i,
+            type: 'asset/source',
+            generator: {
+                filename: 'static/[name].[hash][ext][query]'
+            }
         }
     ]}
 };

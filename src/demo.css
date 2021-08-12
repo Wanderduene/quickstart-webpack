@@ -7,7 +7,7 @@
 }
 
 #root::after{
-    background: url('./demo.png');
+    background: url('../assets/demo.png');
     width:100px;
     height:100px;
     content:'';
