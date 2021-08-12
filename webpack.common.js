@@ -37,13 +37,6 @@ module.exports = {
             generator: {
                 filename: 'fonts/[name].[hash][ext][query]'
             }
-        },
-        {
-            test: /\.(html|json)$/i,
-            type: 'asset/source',
-            generator: {
-                filename: 'static/[name].[hash][ext][query]'
-            }
         }
     ]}
 };
