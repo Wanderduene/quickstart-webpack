@@ -16,18 +16,18 @@
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
-        "@babel/core": "^7.15.8",
-        "@babel/plugin-transform-runtime": "^7.15.8",
-        "@babel/preset-env": "^7.15.8",
+        "@babel/core": "^7.24.8",
+        "@babel/plugin-transform-runtime": "^7.24.7",
+        "@babel/preset-env": "^7.24.8",
         "babel-loader": "^9.1.0",
-        "css-loader": "^6.5.0",
-        "del-cli": "^5.0.0",
-        "eslint": "^8.1.0",
-        "sass-loader": "^13.2.0",
-        "style-loader": "^3.2.1",
-        "webpack": "^5.60.0",
+        "css-loader": "^7.1.2",
+        "del-cli": "^5.1.0",
+        "eslint": "^8.57.0",
+        "sass-loader": "^14.2.1",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.93.0",
         "webpack-cli": "^5.0.1",
-        "webpack-dev-server": "^4.4.0",
-        "webpack-merge": "^5.8.0"
+        "webpack-dev-server": "^5.0.4",
+        "webpack-merge": "^6.0.1"
     }
 }
