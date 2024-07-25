@@ -1,4 +1,6 @@
-import itWorks from './demo';
-import './demo.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { MyApp } from './app';
 
-document.getElementById('root').textContent = itWorks();
+const rootElement = document.getElementById('root');
+ReactDOM.createRoot(rootElement).render(<MyApp />);
